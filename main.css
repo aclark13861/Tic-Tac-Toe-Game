@@ -1,3 +1,43 @@
 body {
     background: black;
 }
+div {
+    height: 200px;
+    width: 200px;
+    background:white;
+    display: table-cell;
+    margin: 0 auto;
+    
+}
+.row div:nth-child(2) {
+    background-color: red;
+    margin: 0 auto;
+    
+}
+.gameBoard {
+    display: table;
+    border-spacing: 5px;
+    margin: 0 auto;
+    
+}
+.row {
+    display: table-row;
+    margin: 0 auto;
+    
+}
+.player {
+    display: table-caption;
+}
+button {
+    height: 10vh;
+    width: 30vw;
+    border-radius: 20%;
+    margin: 0;
+    padding: 0;
+
+}
+h1 {
+    color: white;
+    margin: 0 0 20vh;
+    
+}
