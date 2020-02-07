@@ -7,11 +7,18 @@ div {
     background:white;
     display: table-cell;
     margin: 0 auto;
+    text-align: center;
+    font-size: 1000%;
+    
     
 }
 .row div:nth-child(2) {
     background-color: red;
     margin: 0 auto;
+    text-align: center;
+    color: turquoise;
+    font-size: 1000%;
+   
     
 }
 .gameBoard {
@@ -25,15 +32,14 @@ div {
     margin: 0 auto;
     
 }
-.player {
-    display: table-caption;
-}
+ 
 button {
     height: 10vh;
-    width: 30vw;
+    width: 10vw;
     border-radius: 20%;
     margin: 0;
     padding: 0;
+    
 
 }
 h1 {
